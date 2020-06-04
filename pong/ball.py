@@ -1,6 +1,7 @@
 import pygame
 from random import randint
 pygame.init
+#colors 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 class Ball(pygame.sprite.Sprite):
