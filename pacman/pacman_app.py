@@ -1,6 +1,7 @@
 import pygame 
 import sys 
 from pacman_settings import* 
+from pacman_player import* 
 # main class for the app 
 class App:
     def __init__(self):
@@ -27,6 +28,7 @@ class App:
         self.screen.fill(BLACK)
         self.screen.blit(self.background, (TOP_BOTTOM_BUFFER//2, TOP_BOTTOM_BUFFER//2))
         self.draw_coins()
+        player.draw()
         pygame.display.update()
     def draw_coins(self):
         for coin in self.coins:
