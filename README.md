@@ -1,2 +1,2 @@
 # Games-
-games in pygame, java, ect. 
+games in pygame, java, etc. 
